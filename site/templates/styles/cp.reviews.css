@@ -1,0 +1,110 @@
+.review {
+    margin: 20px 0;
+    padding: 20px 20px 20px 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+
+
+.review:hover {
+    -moz-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.25);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.25);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.review-header{
+    position: relative;
+}
+.review-header__icon {
+    float: left;
+}
+
+.review-header__icon img {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+
+.review-header__summary{}
+.review-header__summary--rating{}
+
+.review-header__summary--rating ul {
+    padding: 0 0 0 0;
+    margin: 0 0 0 20px;
+    list-style: none;
+}
+
+.review-header__summary--rating ul li {
+    font-size: 22px;
+    display: inline;
+    color: #FF7B2A;
+}
+
+
+.review-header__summary--service{
+    text-transform: capitalize;
+}
+
+.review-header__date{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    color: #94a0a6;
+    font-size: 12px;
+
+}
+.review-review p{
+    line-height: 120%;
+
+}
+
+
+
+
+.review-response {
+    margin: 0 0 0 20px;
+    background: #F2F5F7;
+    border-left: solid 3px #4EBFEC;
+    padding: 10px 20px;
+}
+
+.review-response p {
+    padding: 5px 0;
+}
+
+.review-response p:first-of-type {
+    color: #94a0a6;
+    font-size: 12px;
+}
+
+
+ul.MarkupPagerNav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+ul.MarkupPagerNav li{
+    display: inline-block;
+
+}
+
+ul.MarkupPagerNav li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #94a0a6;
+    padding: 5px 10px;
+}
+
+[aria-current="true"] a{
+    background: #4EBFEC !important;
+}

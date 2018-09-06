@@ -1,0 +1,83 @@
+<?php namespace ProcessWire;
+
+/**
+ * BackgroundChanger module for demonstration purposes
+ *
+ * Demonstrates the Module interface and how to add hooks in a more real world manner...
+ * 
+ * ProcessWire 2.x 
+ * Copyright (C) 2014 by Domenic Helfenstein
+ *
+ */
+
+class BackgroundChanger extends WireData implements Module, ConfigurableModule {
+    public static function getModuleInfo() {
+        return array(
+            /*
+             * the __("text") methods are used for multilanguage support
+             * see: https://processwire.com/api/multi-language-support/code-i18n/
+             */
+            'title' => __('BackgroundChanger'),
+            'summary' => __('This is a simple real world module that can change the background color.'),
+            'version' => 105,
+            /*
+             * autoload must be true if the module depends on hooks
+             * see: http://wiki.processwire.com/index.php/Module_Creation#Details_of_what_the_.22autoload.22_property_means
+             */
+            'autoload' => true,
+            /*
+             * it is wise to run modules in singular mode when using hooks
+             * see: http://wiki.processwire.com/index.php/Module_Creation#Details_of_what_the_.22singular.22_property_means
+             */
+            'singular' => true,
+        );
+    }
+    
+    public function __construct() {
+        //set default values
+        $this->backgroundColor = 'yellow';
+        /*
+         * !!! the value in the db will be automatically injected into this var 
+         * because it is named equal to the value of $field->name in 
+         * getModuleConfigInputfields !!!
+         */
+    }
+    
+    public function init() {
+        // add a hook after each page is rendered and modify the output
+	$this->addHookAfter('Page::render', $this, 'changeBackground');
+    }
+    
+    public function changeBackground($event) {
+        $page = $event->object;
+
+        //do only modify non-admin pages
+        if($page->template == 'admin') return;
+        
+        $extension = <<< _OUT
+            <style>
+                body {background-color:{$this->backgroundColor};}
+            </style>
+_OUT;
+        $event->return = str_replace("</head>", $extension."</head>", $event->return); 
+    }
+    
+    public static function getModuleConfigInputfields(array $data) {
+        //create a fieldset
+        $inputfields = new InputfieldWrapper(); 
+ 
+        //create field for background color
+        $field = wire('modules')->get('InputfieldText');
+        $field->name = 'backgroundColor';
+        $field->label = __("Enter the hex-code or name of the desired background color. (visit colorpicker.com)");
+        
+        //if there is already a value stored, set this value to the field
+        if(isset($data['backgroundColor'])) $field->value = $data['backgroundColor'];
+        
+        //add the field to the fieldset
+        $inputfields->add($field);
+ 
+        //return the fieldset to display
+        return $inputfields; 
+    }
+}

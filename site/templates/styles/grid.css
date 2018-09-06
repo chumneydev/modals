@@ -1,0 +1,5862 @@
+/* Grid Version 2
+/* Author: Louis Stephens
+/*
+*/
+@import url("https://www.theautohost.com/_assets/coding/cagriddle/css/cagriddle.min.css");
+.ca-container .ca-row {
+  width: 100%;
+  padding: 10px 0;
+  overflow: auto;
+}
+
+.ca-container .ca-row [class*="ca-col-"] {
+  float: left;
+  padding-right: 20px;
+}
+
+.ca-container .ca-row [class*="ca-col-"] {
+  padding: 0 10px;
+}
+
+.ca-container .ca-row [class*="ca-col-"] > .ca-row [class*="ca-col-"] {
+  padding-left: 0 !important;
+}
+
+.ca-container .ca-row [class*="ca-col-"] > .ca-row [class*="ca-col-"]:last-of-type {
+  padding-right: 0 !important;
+}
+
+.ca-container .ca-row .ca-col-fifths {
+  width: 20%;
+}
+
+.ca-container .ca-row .ca-col-1 {
+  width: 8.33333%;
+}
+
+.ca-container .ca-row .ca-col-2 {
+  width: 16.66667%;
+}
+
+.ca-container .ca-row .ca-col-3 {
+  width: 25.0%;
+}
+
+.ca-container .ca-row .ca-col-4 {
+  width: 33.33333%;
+}
+
+.ca-container .ca-row .ca-col-5 {
+  width: 41.66667%;
+}
+
+.ca-container .ca-row .ca-col-6 {
+  width: 50.0%;
+}
+
+.ca-container .ca-row .ca-col-7 {
+  width: 58.33333%;
+}
+
+.ca-container .ca-row .ca-col-8 {
+  width: 66.66667%;
+}
+
+.ca-container .ca-row .ca-col-9 {
+  width: 75.0%;
+}
+
+.ca-container .ca-row .ca-col-10 {
+  width: 83.33333%;
+}
+
+.ca-container .ca-row .ca-col-11 {
+  width: 91.66667%;
+}
+
+.ca-container .ca-row .ca-col-12 {
+  width: 100.0%;
+}
+
+.ca-container .ca-row .ca-offset-1 {
+  margin-left: 8.33333%;
+}
+
+.ca-container .ca-row .ca-offset-2 {
+  margin-left: 16.66667%;
+}
+
+.ca-container .ca-row .ca-offset-3 {
+  margin-left: 25.0%;
+}
+
+.ca-container .ca-row .ca-offset-4 {
+  margin-left: 33.33333%;
+}
+
+.ca-container .ca-row .ca-offset-5 {
+  margin-left: 41.66667%;
+}
+
+.ca-container .ca-row .ca-offset-6 {
+  margin-left: 50.0%;
+}
+
+.ca-container .ca-row .ca-offset-7 {
+  margin-left: 58.33333%;
+}
+
+.ca-container .ca-row .ca-offset-8 {
+  margin-left: 66.66667%;
+}
+
+.ca-container .ca-row .ca-offset-9 {
+  margin-left: 75.0%;
+}
+
+.ca-container .ca-row .ca-offset-10 {
+  margin-left: 83.33333%;
+}
+
+.ca-container .ca-row .ca-offset-11 {
+  margin-left: 91.66667%;
+}
+
+.ca-text-left {
+  text-align: left;
+}
+
+.ca-text-center {
+  text-align: center;
+}
+
+.ca-text-right {
+  text-align: right;
+}
+
+.ca-text-justify {
+  text-align: justify;
+}
+
+.ca-font-xs {
+  font-size: 8px;
+}
+
+.ca-font-sm {
+  font-size: 10px;
+}
+
+.ca-font-md {
+  font-size: 18px;
+}
+
+.ca-font-lg {
+  font-size: 24px;
+}
+
+.ca-font-bold {
+  font-weight: bold;
+}
+
+.ca-font-normal {
+  font-weight: normal;
+}
+
+.ca-text-overline {
+  text-decoration: overline;
+}
+
+.ca-text-underline {
+  text-decoration: underline;
+}
+
+.ca-text-linethrough {
+  text-decoration: line-through;
+}
+
+.ca-btn-acura {
+  background: #e82c2a;
+  border: 1px solid #e82c2a;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #e82c2a;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-acura:hover {
+  box-shadow: inset 0 50px 0 0 #b21513;
+}
+
+.ca-btn-acura:active {
+  background: #b21513;
+}
+
+.ca-btn-audi {
+  background: #cd1f35;
+  border: 1px solid #cd1f35;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #cd1f35;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-audi:hover {
+  box-shadow: inset 0 50px 0 0 #8b1524;
+}
+
+.ca-btn-audi:active {
+  background: #8b1524;
+}
+
+.ca-btn-bmw {
+  background: #1c69d4;
+  border: 1px solid #1c69d4;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #1c69d4;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-bmw:hover {
+  box-shadow: inset 0 50px 0 0 #134890;
+}
+
+.ca-btn-bmw:active {
+  background: #134890;
+}
+
+.ca-btn-buick {
+  background: #f26518;
+  border: 1px solid #f26518;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #f26518;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-buick:hover {
+  box-shadow: inset 0 50px 0 0 #b3460a;
+}
+
+.ca-btn-buick:active {
+  background: #b3460a;
+}
+
+.ca-btn-cadillac {
+  background: #9e1834;
+  border: 1px solid #9e1834;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #9e1834;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-cadillac:hover {
+  box-shadow: inset 0 50px 0 0 #5c0e1e;
+}
+
+.ca-btn-cadillac:active {
+  background: #5c0e1e;
+}
+
+.ca-btn-chevy {
+  background: #f1b923;
+  border: 1px solid #f1b923;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #f1b923;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-chevy:hover {
+  box-shadow: inset 0 50px 0 0 #bc8c0c;
+}
+
+.ca-btn-chevy:active {
+  background: #bc8c0c;
+}
+
+.ca-btn-fiat {
+  background: #b11636;
+  border: 1px solid #b11636;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #b11636;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-fiat:hover {
+  box-shadow: inset 0 50px 0 0 #6d0e21;
+}
+
+.ca-btn-fiat:active {
+  background: #6d0e21;
+}
+
+.ca-btn-ford {
+  background: #2D96CD;
+  border: 1px solid #2D96CD;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #2D96CD;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-ford:hover {
+  box-shadow: inset 0 50px 0 0 #1f688e;
+}
+
+.ca-btn-ford:active {
+  background: #1f688e;
+}
+
+.ca-btn-gmc {
+  background: #BC0A0F;
+  border: 1px solid #BC0A0F;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #BC0A0F;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-gmc:hover {
+  box-shadow: inset 0 50px 0 0 #730609;
+}
+
+.ca-btn-gmc:active {
+  background: #730609;
+}
+
+.ca-btn-honda {
+  background: #2086c1;
+  border: 1px solid #2086c1;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #2086c1;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-honda:hover {
+  box-shadow: inset 0 50px 0 0 #15587f;
+}
+
+.ca-btn-honda:active {
+  background: #15587f;
+}
+
+.ca-btn-hyundai {
+  background: #002D73;
+  border: 1px solid #002D73;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #002D73;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-hyundai:hover {
+  box-shadow: inset 0 50px 0 0 #000f27;
+}
+
+.ca-btn-hyundai:active {
+  background: #000f27;
+}
+
+.ca-btn-infiniti {
+  background: #201d26;
+  border: 1px solid #201d26;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #201d26;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-infiniti:hover {
+  box-shadow: inset 0 50px 0 0 black;
+}
+
+.ca-btn-infiniti:active {
+  background: black;
+}
+
+.ca-btn-kia {
+  background: #c4172c;
+  border: 1px solid #c4172c;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #c4172c;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-kia:hover {
+  box-shadow: inset 0 50px 0 0 #800f1d;
+}
+
+.ca-btn-kia:active {
+  background: #800f1d;
+}
+
+.ca-btn-lexus {
+  background: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #1a1a1a;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-lexus:hover {
+  box-shadow: inset 0 50px 0 0 black;
+}
+
+.ca-btn-lexus:active {
+  background: black;
+}
+
+.ca-btn-lincoln {
+  background: #231F1F;
+  border: 1px solid #231F1F;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #231F1F;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-lincoln:hover {
+  box-shadow: inset 0 50px 0 0 black;
+}
+
+.ca-btn-lincoln:active {
+  background: black;
+}
+
+.ca-btn-maserati {
+  background: #0b2749;
+  border: 1px solid #0b2749;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #0b2749;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-maserati:hover {
+  box-shadow: inset 0 50px 0 0 #010307;
+}
+
+.ca-btn-maserati:active {
+  background: #010307;
+}
+
+.ca-btn-mazda {
+  background: #df0000;
+  border: 1px solid #df0000;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #df0000;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-mazda:hover {
+  box-shadow: inset 0 50px 0 0 #930000;
+}
+
+.ca-btn-mazda:active {
+  background: #930000;
+}
+
+.ca-btn-mini {
+  background: #ac2430;
+  border: 1px solid #ac2430;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #ac2430;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-mini:hover {
+  box-shadow: inset 0 50px 0 0 #6d171e;
+}
+
+.ca-btn-mini:active {
+  background: #6d171e;
+}
+
+.ca-btn-mb {
+  background: #222222;
+  border: 1px solid #222222;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #222222;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-mb:hover {
+  box-shadow: inset 0 50px 0 0 black;
+}
+
+.ca-btn-mb:active {
+  background: black;
+}
+
+.ca-btn-mitsubishi {
+  background: #ff0022;
+  border: 1px solid #ff0022;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #ff0022;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-mitsubishi:hover {
+  box-shadow: inset 0 50px 0 0 #b30018;
+}
+
+.ca-btn-mitsubishi:active {
+  background: #b30018;
+}
+
+.ca-btn-nissan {
+  background: #c3002f;
+  border: 1px solid #c3002f;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #c3002f;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-nissan:hover {
+  box-shadow: inset 0 50px 0 0 #77001d;
+}
+
+.ca-btn-nissan:active {
+  background: #77001d;
+}
+
+.ca-btn-subaru {
+  background: #20609F;
+  border: 1px solid #20609F;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #20609F;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-subaru:hover {
+  box-shadow: inset 0 50px 0 0 #133a5f;
+}
+
+.ca-btn-subaru:active {
+  background: #133a5f;
+}
+
+.ca-btn-toyota {
+  background: #d71921;
+  border: 1px solid #d71921;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #d71921;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-toyota:hover {
+  box-shadow: inset 0 50px 0 0 #921116;
+}
+
+.ca-btn-toyota:active {
+  background: #921116;
+}
+
+.ca-btn-volvo {
+  background: #003057;
+  border: 1px solid #003057;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #003057;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-volvo:hover {
+  box-shadow: inset 0 50px 0 0 #00060b;
+}
+
+.ca-btn-volvo:active {
+  background: #00060b;
+}
+
+.ca-btn-vw {
+  background: #00B1EB;
+  border: 1px solid #00B1EB;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #00B1EB;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-vw:hover {
+  box-shadow: inset 0 50px 0 0 #00779f;
+}
+
+.ca-btn-vw:active {
+  background: #00779f;
+}
+
+.ca-btn-grey {
+  background: #e4e4e4;
+  border: 1px solid #e4e4e4;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #e4e4e4;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-grey:hover {
+  box-shadow: inset 0 50px 0 0 #bebebe;
+}
+
+.ca-btn-grey:active {
+  background: #bebebe;
+}
+
+.ca-btn-demo {
+  background: #000021;
+  border: 1px solid #000021;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #000021;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-demo:hover {
+  box-shadow: inset 0 50px 0 0 black;
+}
+
+.ca-btn-demo:active {
+  background: black;
+}
+
+.ca-btn-white {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #FFFFFF;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-white:hover {
+  box-shadow: inset 0 50px 0 0 #d9d9d9;
+}
+
+.ca-btn-white:active {
+  background: #d9d9d9;
+}
+
+.ca-btn-black {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-black:hover {
+  box-shadow: inset 0 50px 0 0 black;
+}
+
+.ca-btn-black:active {
+  background: black;
+}
+
+.ca-btn-secondary {
+  background: #00bae3;
+  border: 1px solid #00bae3;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #00bae3;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-secondary:hover {
+  box-shadow: inset 0 50px 0 0 #007b97;
+}
+
+.ca-btn-secondary:active {
+  background: #007b97;
+}
+
+.ca-btn-purple {
+  background: #603a93;
+  border: 1px solid #603a93;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #603a93;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-purple:hover {
+  box-shadow: inset 0 50px 0 0 #3c245c;
+}
+
+.ca-btn-purple:active {
+  background: #3c245c;
+}
+
+.ca-btn-outline-acura {
+  background: none;
+  border: 2px solid #e82c2a;
+  color: #e82c2a;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #e82c2a;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-acura:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #e82c2a;
+}
+
+.ca-btn-outline-acura:active {
+  background: #b21513;
+}
+
+.ca-btn-outline-audi {
+  background: none;
+  border: 2px solid #cd1f35;
+  color: #cd1f35;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #cd1f35;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-audi:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #cd1f35;
+}
+
+.ca-btn-outline-audi:active {
+  background: #8b1524;
+}
+
+.ca-btn-outline-bmw {
+  background: none;
+  border: 2px solid #1c69d4;
+  color: #1c69d4;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #1c69d4;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-bmw:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #1c69d4;
+}
+
+.ca-btn-outline-bmw:active {
+  background: #134890;
+}
+
+.ca-btn-outline-buick {
+  background: none;
+  border: 2px solid #f26518;
+  color: #f26518;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #f26518;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-buick:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #f26518;
+}
+
+.ca-btn-outline-buick:active {
+  background: #b3460a;
+}
+
+.ca-btn-outline-cadillac {
+  background: none;
+  border: 2px solid #9e1834;
+  color: #9e1834;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #9e1834;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-cadillac:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #9e1834;
+}
+
+.ca-btn-outline-cadillac:active {
+  background: #5c0e1e;
+}
+
+.ca-btn-outline-chevy {
+  background: none;
+  border: 2px solid #f1b923;
+  color: #f1b923;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #f1b923;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-chevy:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #f1b923;
+}
+
+.ca-btn-outline-chevy:active {
+  background: #bc8c0c;
+}
+
+.ca-btn-outline-fiat {
+  background: none;
+  border: 2px solid #b11636;
+  color: #b11636;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #b11636;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-fiat:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #b11636;
+}
+
+.ca-btn-outline-fiat:active {
+  background: #6d0e21;
+}
+
+.ca-btn-outline-ford {
+  background: none;
+  border: 2px solid #2D96CD;
+  color: #2D96CD;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #2D96CD;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-ford:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #2D96CD;
+}
+
+.ca-btn-outline-ford:active {
+  background: #1f688e;
+}
+
+.ca-btn-outline-gmc {
+  background: none;
+  border: 2px solid #BC0A0F;
+  color: #BC0A0F;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #BC0A0F;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-gmc:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #BC0A0F;
+}
+
+.ca-btn-outline-gmc:active {
+  background: #730609;
+}
+
+.ca-btn-outline-honda {
+  background: none;
+  border: 2px solid #2086c1;
+  color: #2086c1;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #2086c1;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-honda:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #2086c1;
+}
+
+.ca-btn-outline-honda:active {
+  background: #15587f;
+}
+
+.ca-btn-outline-hyundai {
+  background: none;
+  border: 2px solid #002D73;
+  color: #002D73;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #002D73;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-hyundai:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #002D73;
+}
+
+.ca-btn-outline-hyundai:active {
+  background: #000f27;
+}
+
+.ca-btn-outline-infiniti {
+  background: none;
+  border: 2px solid #201d26;
+  color: #201d26;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #201d26;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-infiniti:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #201d26;
+}
+
+.ca-btn-outline-infiniti:active {
+  background: black;
+}
+
+.ca-btn-outline-kia {
+  background: none;
+  border: 2px solid #c4172c;
+  color: #c4172c;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #c4172c;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-kia:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #c4172c;
+}
+
+.ca-btn-outline-kia:active {
+  background: #800f1d;
+}
+
+.ca-btn-outline-lexus {
+  background: none;
+  border: 2px solid #1a1a1a;
+  color: #1a1a1a;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #1a1a1a;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-lexus:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #1a1a1a;
+}
+
+.ca-btn-outline-lexus:active {
+  background: black;
+}
+
+.ca-btn-outline-lincoln {
+  background: none;
+  border: 2px solid #231F1F;
+  color: #231F1F;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #231F1F;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-lincoln:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #231F1F;
+}
+
+.ca-btn-outline-lincoln:active {
+  background: black;
+}
+
+.ca-btn-outline-maserati {
+  background: none;
+  border: 2px solid #0b2749;
+  color: #0b2749;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #0b2749;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-maserati:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #0b2749;
+}
+
+.ca-btn-outline-maserati:active {
+  background: #010307;
+}
+
+.ca-btn-outline-mazda {
+  background: none;
+  border: 2px solid #df0000;
+  color: #df0000;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #df0000;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-mazda:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #df0000;
+}
+
+.ca-btn-outline-mazda:active {
+  background: #930000;
+}
+
+.ca-btn-outline-mini {
+  background: none;
+  border: 2px solid #ac2430;
+  color: #ac2430;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #ac2430;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-mini:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #ac2430;
+}
+
+.ca-btn-outline-mini:active {
+  background: #6d171e;
+}
+
+.ca-btn-outline-mb {
+  background: none;
+  border: 2px solid #222222;
+  color: #222222;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #222222;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-mb:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #222222;
+}
+
+.ca-btn-outline-mb:active {
+  background: black;
+}
+
+.ca-btn-outline-mitsubishi {
+  background: none;
+  border: 2px solid #ff0022;
+  color: #ff0022;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #ff0022;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-mitsubishi:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #ff0022;
+}
+
+.ca-btn-outline-mitsubishi:active {
+  background: #b30018;
+}
+
+.ca-btn-outline-nissan {
+  background: none;
+  border: 2px solid #c3002f;
+  color: #c3002f;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #c3002f;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-nissan:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #c3002f;
+}
+
+.ca-btn-outline-nissan:active {
+  background: #77001d;
+}
+
+.ca-btn-outline-subaru {
+  background: none;
+  border: 2px solid #20609F;
+  color: #20609F;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #20609F;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-subaru:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #20609F;
+}
+
+.ca-btn-outline-subaru:active {
+  background: #133a5f;
+}
+
+.ca-btn-outline-toyota {
+  background: none;
+  border: 2px solid #d71921;
+  color: #d71921;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #d71921;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-toyota:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #d71921;
+}
+
+.ca-btn-outline-toyota:active {
+  background: #921116;
+}
+
+.ca-btn-outline-volvo {
+  background: none;
+  border: 2px solid #003057;
+  color: #003057;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #003057;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-volvo:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #003057;
+}
+
+.ca-btn-outline-volvo:active {
+  background: #00060b;
+}
+
+.ca-btn-outline-vw {
+  background: none;
+  border: 2px solid #00B1EB;
+  color: #00B1EB;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #00B1EB;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-vw:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #00B1EB;
+}
+
+.ca-btn-outline-vw:active {
+  background: #00779f;
+}
+
+.ca-btn-outline-grey {
+  background: none;
+  border: 2px solid #e4e4e4;
+  color: #e4e4e4;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #e4e4e4;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-grey:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #e4e4e4;
+}
+
+.ca-btn-outline-grey:active {
+  background: #bebebe;
+}
+
+.ca-btn-outline-demo {
+  background: none;
+  border: 2px solid #000021;
+  color: #000021;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #000021;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-demo:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #000021;
+}
+
+.ca-btn-outline-demo:active {
+  background: black;
+}
+
+.ca-btn-outline-white {
+  background: none;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #FFFFFF;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-white:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #FFFFFF;
+}
+
+.ca-btn-outline-white:active {
+  background: #d9d9d9;
+}
+
+.ca-btn-outline-black {
+  background: none;
+  border: 2px solid #000000;
+  color: #000000;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #000000;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-black:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #000000;
+}
+
+.ca-btn-outline-black:active {
+  background: black;
+}
+
+.ca-btn-outline-secondary {
+  background: none;
+  border: 2px solid #00bae3;
+  color: #00bae3;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #00bae3;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-secondary:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #00bae3;
+}
+
+.ca-btn-outline-secondary:active {
+  background: #007b97;
+}
+
+.ca-btn-outline-purple {
+  background: none;
+  border: 2px solid #603a93;
+  color: #603a93;
+  padding: 15px 20px !important;
+  width: 100%;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #603a93;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.ca-btn-outline-purple:hover {
+  color: #FFFFFF;
+  box-shadow: inset 0 50px 0 0 #603a93;
+}
+
+.ca-btn-outline-purple:active {
+  background: #3c245c;
+}
+
+.ca-background-acura {
+  background: #e82c2a;
+}
+
+.ca-background-audi {
+  background: #cd1f35;
+}
+
+.ca-background-bmw {
+  background: #1c69d4;
+}
+
+.ca-background-buick {
+  background: #f26518;
+}
+
+.ca-background-cadillac {
+  background: #9e1834;
+}
+
+.ca-background-chevy {
+  background: #f1b923;
+}
+
+.ca-background-fiat {
+  background: #b11636;
+}
+
+.ca-background-ford {
+  background: #2D96CD;
+}
+
+.ca-background-gmc {
+  background: #BC0A0F;
+}
+
+.ca-background-honda {
+  background: #2086c1;
+}
+
+.ca-background-hyundai {
+  background: #002D73;
+}
+
+.ca-background-infiniti {
+  background: #201d26;
+}
+
+.ca-background-kia {
+  background: #c4172c;
+}
+
+.ca-background-lexus {
+  background: #1a1a1a;
+}
+
+.ca-background-lincoln {
+  background: #231F1F;
+}
+
+.ca-background-maserati {
+  background: #0b2749;
+}
+
+.ca-background-mazda {
+  background: #df0000;
+}
+
+.ca-background-mini {
+  background: #ac2430;
+}
+
+.ca-background-mb {
+  background: #222222;
+}
+
+.ca-background-mitsubishi {
+  background: #ff0022;
+}
+
+.ca-background-nissan {
+  background: #c3002f;
+}
+
+.ca-background-subaru {
+  background: #20609F;
+}
+
+.ca-background-toyota {
+  background: #d71921;
+}
+
+.ca-background-volvo {
+  background: #003057;
+}
+
+.ca-background-vw {
+  background: #00B1EB;
+}
+
+.ca-background-grey {
+  background: #e4e4e4;
+}
+
+.ca-background-demo {
+  background: #000021;
+}
+
+.ca-background-white {
+  background: #FFFFFF;
+}
+
+.ca-background-black {
+  background: #000000;
+}
+
+.ca-background-secondary {
+  background: #00bae3;
+}
+
+.ca-background-purple {
+  background: #603a93;
+}
+
+.ca-background-bmw {
+  border-radius: 0 !important;
+}
+
+.ca-background-demo {
+  background: #000021;
+}
+
+.ca-font-color-acura {
+  color: #e82c2a;
+}
+
+.ca-font-color-audi {
+  color: #cd1f35;
+}
+
+.ca-font-color-bmw {
+  color: #1c69d4;
+}
+
+.ca-font-color-buick {
+  color: #f26518;
+}
+
+.ca-font-color-cadillac {
+  color: #9e1834;
+}
+
+.ca-font-color-chevy {
+  color: #f1b923;
+}
+
+.ca-font-color-fiat {
+  color: #b11636;
+}
+
+.ca-font-color-ford {
+  color: #2D96CD;
+}
+
+.ca-font-color-gmc {
+  color: #BC0A0F;
+}
+
+.ca-font-color-honda {
+  color: #2086c1;
+}
+
+.ca-font-color-hyundai {
+  color: #002D73;
+}
+
+.ca-font-color-infiniti {
+  color: #201d26;
+}
+
+.ca-font-color-kia {
+  color: #c4172c;
+}
+
+.ca-font-color-lexus {
+  color: #1a1a1a;
+}
+
+.ca-font-color-lincoln {
+  color: #231F1F;
+}
+
+.ca-font-color-maserati {
+  color: #0b2749;
+}
+
+.ca-font-color-mazda {
+  color: #df0000;
+}
+
+.ca-font-color-mini {
+  color: #ac2430;
+}
+
+.ca-font-color-mb {
+  color: #222222;
+}
+
+.ca-font-color-mitsubishi {
+  color: #ff0022;
+}
+
+.ca-font-color-nissan {
+  color: #c3002f;
+}
+
+.ca-font-color-subaru {
+  color: #20609F;
+}
+
+.ca-font-color-toyota {
+  color: #d71921;
+}
+
+.ca-font-color-volvo {
+  color: #003057;
+}
+
+.ca-font-color-vw {
+  color: #00B1EB;
+}
+
+.ca-font-color-grey {
+  color: #e4e4e4;
+}
+
+.ca-font-color-demo {
+  color: #000021;
+}
+
+.ca-font-color-white {
+  color: #FFFFFF;
+}
+
+.ca-font-color-black {
+  color: #000000;
+}
+
+.ca-font-color-secondary {
+  color: #00bae3;
+}
+
+.ca-font-color-purple {
+  color: #603a93;
+}
+
+.ca-button-group-acura {
+  background: #e82c2a;
+  border: 1px solid #e82c2a;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-acura li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-acura li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-acura li a:hover {
+  transition: all 0.3s ease;
+  background: #b21513;
+}
+
+.ca-button-group-acura:active {
+  background: #b21513;
+}
+
+.ca-button-group-audi {
+  background: #cd1f35;
+  border: 1px solid #cd1f35;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-audi li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-audi li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-audi li a:hover {
+  transition: all 0.3s ease;
+  background: #8b1524;
+}
+
+.ca-button-group-audi:active {
+  background: #8b1524;
+}
+
+.ca-button-group-bmw {
+  background: #1c69d4;
+  border: 1px solid #1c69d4;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-bmw li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-bmw li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-bmw li a:hover {
+  transition: all 0.3s ease;
+  background: #134890;
+}
+
+.ca-button-group-bmw:active {
+  background: #134890;
+}
+
+.ca-button-group-buick {
+  background: #f26518;
+  border: 1px solid #f26518;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-buick li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-buick li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-buick li a:hover {
+  transition: all 0.3s ease;
+  background: #b3460a;
+}
+
+.ca-button-group-buick:active {
+  background: #b3460a;
+}
+
+.ca-button-group-cadillac {
+  background: #9e1834;
+  border: 1px solid #9e1834;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-cadillac li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-cadillac li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-cadillac li a:hover {
+  transition: all 0.3s ease;
+  background: #5c0e1e;
+}
+
+.ca-button-group-cadillac:active {
+  background: #5c0e1e;
+}
+
+.ca-button-group-chevy {
+  background: #f1b923;
+  border: 1px solid #f1b923;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-chevy li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-chevy li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-chevy li a:hover {
+  transition: all 0.3s ease;
+  background: #bc8c0c;
+}
+
+.ca-button-group-chevy:active {
+  background: #bc8c0c;
+}
+
+.ca-button-group-fiat {
+  background: #b11636;
+  border: 1px solid #b11636;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-fiat li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-fiat li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-fiat li a:hover {
+  transition: all 0.3s ease;
+  background: #6d0e21;
+}
+
+.ca-button-group-fiat:active {
+  background: #6d0e21;
+}
+
+.ca-button-group-ford {
+  background: #2D96CD;
+  border: 1px solid #2D96CD;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-ford li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-ford li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-ford li a:hover {
+  transition: all 0.3s ease;
+  background: #1f688e;
+}
+
+.ca-button-group-ford:active {
+  background: #1f688e;
+}
+
+.ca-button-group-gmc {
+  background: #BC0A0F;
+  border: 1px solid #BC0A0F;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-gmc li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-gmc li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-gmc li a:hover {
+  transition: all 0.3s ease;
+  background: #730609;
+}
+
+.ca-button-group-gmc:active {
+  background: #730609;
+}
+
+.ca-button-group-honda {
+  background: #2086c1;
+  border: 1px solid #2086c1;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-honda li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-honda li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-honda li a:hover {
+  transition: all 0.3s ease;
+  background: #15587f;
+}
+
+.ca-button-group-honda:active {
+  background: #15587f;
+}
+
+.ca-button-group-hyundai {
+  background: #002D73;
+  border: 1px solid #002D73;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-hyundai li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-hyundai li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-hyundai li a:hover {
+  transition: all 0.3s ease;
+  background: #000f27;
+}
+
+.ca-button-group-hyundai:active {
+  background: #000f27;
+}
+
+.ca-button-group-infiniti {
+  background: #201d26;
+  border: 1px solid #201d26;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-infiniti li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-infiniti li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-infiniti li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-button-group-infiniti:active {
+  background: black;
+}
+
+.ca-button-group-kia {
+  background: #c4172c;
+  border: 1px solid #c4172c;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-kia li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-kia li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-kia li a:hover {
+  transition: all 0.3s ease;
+  background: #800f1d;
+}
+
+.ca-button-group-kia:active {
+  background: #800f1d;
+}
+
+.ca-button-group-lexus {
+  background: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-lexus li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-lexus li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-lexus li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-button-group-lexus:active {
+  background: black;
+}
+
+.ca-button-group-lincoln {
+  background: #231F1F;
+  border: 1px solid #231F1F;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-lincoln li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-lincoln li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-lincoln li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-button-group-lincoln:active {
+  background: black;
+}
+
+.ca-button-group-maserati {
+  background: #0b2749;
+  border: 1px solid #0b2749;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-maserati li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-maserati li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-maserati li a:hover {
+  transition: all 0.3s ease;
+  background: #010307;
+}
+
+.ca-button-group-maserati:active {
+  background: #010307;
+}
+
+.ca-button-group-mazda {
+  background: #df0000;
+  border: 1px solid #df0000;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-mazda li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-mazda li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-mazda li a:hover {
+  transition: all 0.3s ease;
+  background: #930000;
+}
+
+.ca-button-group-mazda:active {
+  background: #930000;
+}
+
+.ca-button-group-mini {
+  background: #ac2430;
+  border: 1px solid #ac2430;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-mini li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-mini li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-mini li a:hover {
+  transition: all 0.3s ease;
+  background: #6d171e;
+}
+
+.ca-button-group-mini:active {
+  background: #6d171e;
+}
+
+.ca-button-group-mb {
+  background: #222222;
+  border: 1px solid #222222;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-mb li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-mb li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-mb li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-button-group-mb:active {
+  background: black;
+}
+
+.ca-button-group-mitsubishi {
+  background: #ff0022;
+  border: 1px solid #ff0022;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-mitsubishi li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-mitsubishi li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-mitsubishi li a:hover {
+  transition: all 0.3s ease;
+  background: #b30018;
+}
+
+.ca-button-group-mitsubishi:active {
+  background: #b30018;
+}
+
+.ca-button-group-nissan {
+  background: #c3002f;
+  border: 1px solid #c3002f;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-nissan li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-nissan li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-nissan li a:hover {
+  transition: all 0.3s ease;
+  background: #77001d;
+}
+
+.ca-button-group-nissan:active {
+  background: #77001d;
+}
+
+.ca-button-group-subaru {
+  background: #20609F;
+  border: 1px solid #20609F;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-subaru li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-subaru li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-subaru li a:hover {
+  transition: all 0.3s ease;
+  background: #133a5f;
+}
+
+.ca-button-group-subaru:active {
+  background: #133a5f;
+}
+
+.ca-button-group-toyota {
+  background: #d71921;
+  border: 1px solid #d71921;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-toyota li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-toyota li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-toyota li a:hover {
+  transition: all 0.3s ease;
+  background: #921116;
+}
+
+.ca-button-group-toyota:active {
+  background: #921116;
+}
+
+.ca-button-group-volvo {
+  background: #003057;
+  border: 1px solid #003057;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-volvo li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-volvo li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-volvo li a:hover {
+  transition: all 0.3s ease;
+  background: #00060b;
+}
+
+.ca-button-group-volvo:active {
+  background: #00060b;
+}
+
+.ca-button-group-vw {
+  background: #00B1EB;
+  border: 1px solid #00B1EB;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-vw li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-vw li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-vw li a:hover {
+  transition: all 0.3s ease;
+  background: #00779f;
+}
+
+.ca-button-group-vw:active {
+  background: #00779f;
+}
+
+.ca-button-group-grey {
+  background: #e4e4e4;
+  border: 1px solid #e4e4e4;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-grey li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-grey li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-grey li a:hover {
+  transition: all 0.3s ease;
+  background: #bebebe;
+}
+
+.ca-button-group-grey:active {
+  background: #bebebe;
+}
+
+.ca-button-group-demo {
+  background: #000021;
+  border: 1px solid #000021;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-demo li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-demo li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-demo li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-button-group-demo:active {
+  background: black;
+}
+
+.ca-button-group-white {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-white li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-white li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-white li a:hover {
+  transition: all 0.3s ease;
+  background: #d9d9d9;
+}
+
+.ca-button-group-white:active {
+  background: #d9d9d9;
+}
+
+.ca-button-group-black {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-black li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-black li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-black li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-button-group-black:active {
+  background: black;
+}
+
+.ca-button-group-secondary {
+  background: #00bae3;
+  border: 1px solid #00bae3;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-secondary li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-secondary li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-secondary li a:hover {
+  transition: all 0.3s ease;
+  background: #007b97;
+}
+
+.ca-button-group-secondary:active {
+  background: #007b97;
+}
+
+.ca-button-group-purple {
+  background: #603a93;
+  border: 1px solid #603a93;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.ca-button-group-purple li {
+  text-decoration: none;
+  display: block;
+}
+
+.ca-button-group-purple li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-button-group-purple li a:hover {
+  transition: all 0.3s ease;
+  background: #3c245c;
+}
+
+.ca-button-group-purple:active {
+  background: #3c245c;
+}
+
+.ca-hr-acura {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e82c2a;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-audi {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cd1f35;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-bmw {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #1c69d4;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-buick {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f26518;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-cadillac {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #9e1834;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-chevy {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f1b923;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-fiat {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #b11636;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-ford {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #2D96CD;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-gmc {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #BC0A0F;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-honda {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #2086c1;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-hyundai {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #002D73;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-infiniti {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #201d26;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-kia {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #c4172c;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-lexus {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #1a1a1a;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-lincoln {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #231F1F;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-maserati {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #0b2749;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-mazda {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #df0000;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-mini {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ac2430;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-mb {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #222222;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-mitsubishi {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ff0022;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-nissan {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #c3002f;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-subaru {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #20609F;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-toyota {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #d71921;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-volvo {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #003057;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-vw {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #00B1EB;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-grey {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e4e4e4;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-demo {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000021;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-white {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #FFFFFF;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-black {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000000;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-secondary {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #00bae3;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-hr-purple {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #603a93;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.ca-trim-acura {
+  background: #e82c2a;
+  border: 1px solid #e82c2a;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-acura li {
+  display: block;
+}
+
+.ca-trim-acura li ul {
+  display: none;
+}
+
+.ca-trim-acura li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-acura li:hover {
+  background: #e82c2a;
+}
+
+.ca-trim-acura li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-acura li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #b21513;
+}
+
+.ca-trim-acura:active {
+  background: #b21513;
+}
+
+.ca-trim-audi {
+  background: #cd1f35;
+  border: 1px solid #cd1f35;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-audi li {
+  display: block;
+}
+
+.ca-trim-audi li ul {
+  display: none;
+}
+
+.ca-trim-audi li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-audi li:hover {
+  background: #cd1f35;
+}
+
+.ca-trim-audi li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-audi li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #8b1524;
+}
+
+.ca-trim-audi:active {
+  background: #8b1524;
+}
+
+.ca-trim-bmw {
+  background: #1c69d4;
+  border: 1px solid #1c69d4;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-bmw li {
+  display: block;
+}
+
+.ca-trim-bmw li ul {
+  display: none;
+}
+
+.ca-trim-bmw li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-bmw li:hover {
+  background: #1c69d4;
+}
+
+.ca-trim-bmw li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-bmw li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #134890;
+}
+
+.ca-trim-bmw:active {
+  background: #134890;
+}
+
+.ca-trim-buick {
+  background: #f26518;
+  border: 1px solid #f26518;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-buick li {
+  display: block;
+}
+
+.ca-trim-buick li ul {
+  display: none;
+}
+
+.ca-trim-buick li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-buick li:hover {
+  background: #f26518;
+}
+
+.ca-trim-buick li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-buick li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #b3460a;
+}
+
+.ca-trim-buick:active {
+  background: #b3460a;
+}
+
+.ca-trim-cadillac {
+  background: #9e1834;
+  border: 1px solid #9e1834;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-cadillac li {
+  display: block;
+}
+
+.ca-trim-cadillac li ul {
+  display: none;
+}
+
+.ca-trim-cadillac li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-cadillac li:hover {
+  background: #9e1834;
+}
+
+.ca-trim-cadillac li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-cadillac li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #5c0e1e;
+}
+
+.ca-trim-cadillac:active {
+  background: #5c0e1e;
+}
+
+.ca-trim-chevy {
+  background: #f1b923;
+  border: 1px solid #f1b923;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-chevy li {
+  display: block;
+}
+
+.ca-trim-chevy li ul {
+  display: none;
+}
+
+.ca-trim-chevy li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-chevy li:hover {
+  background: #f1b923;
+}
+
+.ca-trim-chevy li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-chevy li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #bc8c0c;
+}
+
+.ca-trim-chevy:active {
+  background: #bc8c0c;
+}
+
+.ca-trim-fiat {
+  background: #b11636;
+  border: 1px solid #b11636;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-fiat li {
+  display: block;
+}
+
+.ca-trim-fiat li ul {
+  display: none;
+}
+
+.ca-trim-fiat li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-fiat li:hover {
+  background: #b11636;
+}
+
+.ca-trim-fiat li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-fiat li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #6d0e21;
+}
+
+.ca-trim-fiat:active {
+  background: #6d0e21;
+}
+
+.ca-trim-ford {
+  background: #2D96CD;
+  border: 1px solid #2D96CD;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-ford li {
+  display: block;
+}
+
+.ca-trim-ford li ul {
+  display: none;
+}
+
+.ca-trim-ford li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-ford li:hover {
+  background: #2D96CD;
+}
+
+.ca-trim-ford li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-ford li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #1f688e;
+}
+
+.ca-trim-ford:active {
+  background: #1f688e;
+}
+
+.ca-trim-gmc {
+  background: #BC0A0F;
+  border: 1px solid #BC0A0F;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-gmc li {
+  display: block;
+}
+
+.ca-trim-gmc li ul {
+  display: none;
+}
+
+.ca-trim-gmc li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-gmc li:hover {
+  background: #BC0A0F;
+}
+
+.ca-trim-gmc li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-gmc li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #730609;
+}
+
+.ca-trim-gmc:active {
+  background: #730609;
+}
+
+.ca-trim-honda {
+  background: #2086c1;
+  border: 1px solid #2086c1;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-honda li {
+  display: block;
+}
+
+.ca-trim-honda li ul {
+  display: none;
+}
+
+.ca-trim-honda li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-honda li:hover {
+  background: #2086c1;
+}
+
+.ca-trim-honda li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-honda li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #15587f;
+}
+
+.ca-trim-honda:active {
+  background: #15587f;
+}
+
+.ca-trim-hyundai {
+  background: #002D73;
+  border: 1px solid #002D73;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-hyundai li {
+  display: block;
+}
+
+.ca-trim-hyundai li ul {
+  display: none;
+}
+
+.ca-trim-hyundai li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-hyundai li:hover {
+  background: #002D73;
+}
+
+.ca-trim-hyundai li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-hyundai li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #000f27;
+}
+
+.ca-trim-hyundai:active {
+  background: #000f27;
+}
+
+.ca-trim-infiniti {
+  background: #201d26;
+  border: 1px solid #201d26;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-infiniti li {
+  display: block;
+}
+
+.ca-trim-infiniti li ul {
+  display: none;
+}
+
+.ca-trim-infiniti li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-infiniti li:hover {
+  background: #201d26;
+}
+
+.ca-trim-infiniti li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-infiniti li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-trim-infiniti:active {
+  background: black;
+}
+
+.ca-trim-kia {
+  background: #c4172c;
+  border: 1px solid #c4172c;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-kia li {
+  display: block;
+}
+
+.ca-trim-kia li ul {
+  display: none;
+}
+
+.ca-trim-kia li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-kia li:hover {
+  background: #c4172c;
+}
+
+.ca-trim-kia li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-kia li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #800f1d;
+}
+
+.ca-trim-kia:active {
+  background: #800f1d;
+}
+
+.ca-trim-lexus {
+  background: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-lexus li {
+  display: block;
+}
+
+.ca-trim-lexus li ul {
+  display: none;
+}
+
+.ca-trim-lexus li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-lexus li:hover {
+  background: #1a1a1a;
+}
+
+.ca-trim-lexus li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-lexus li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-trim-lexus:active {
+  background: black;
+}
+
+.ca-trim-lincoln {
+  background: #231F1F;
+  border: 1px solid #231F1F;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-lincoln li {
+  display: block;
+}
+
+.ca-trim-lincoln li ul {
+  display: none;
+}
+
+.ca-trim-lincoln li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-lincoln li:hover {
+  background: #231F1F;
+}
+
+.ca-trim-lincoln li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-lincoln li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-trim-lincoln:active {
+  background: black;
+}
+
+.ca-trim-maserati {
+  background: #0b2749;
+  border: 1px solid #0b2749;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-maserati li {
+  display: block;
+}
+
+.ca-trim-maserati li ul {
+  display: none;
+}
+
+.ca-trim-maserati li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-maserati li:hover {
+  background: #0b2749;
+}
+
+.ca-trim-maserati li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-maserati li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #010307;
+}
+
+.ca-trim-maserati:active {
+  background: #010307;
+}
+
+.ca-trim-mazda {
+  background: #df0000;
+  border: 1px solid #df0000;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-mazda li {
+  display: block;
+}
+
+.ca-trim-mazda li ul {
+  display: none;
+}
+
+.ca-trim-mazda li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-mazda li:hover {
+  background: #df0000;
+}
+
+.ca-trim-mazda li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-mazda li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #930000;
+}
+
+.ca-trim-mazda:active {
+  background: #930000;
+}
+
+.ca-trim-mini {
+  background: #ac2430;
+  border: 1px solid #ac2430;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-mini li {
+  display: block;
+}
+
+.ca-trim-mini li ul {
+  display: none;
+}
+
+.ca-trim-mini li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-mini li:hover {
+  background: #ac2430;
+}
+
+.ca-trim-mini li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-mini li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #6d171e;
+}
+
+.ca-trim-mini:active {
+  background: #6d171e;
+}
+
+.ca-trim-mb {
+  background: #222222;
+  border: 1px solid #222222;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-mb li {
+  display: block;
+}
+
+.ca-trim-mb li ul {
+  display: none;
+}
+
+.ca-trim-mb li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-mb li:hover {
+  background: #222222;
+}
+
+.ca-trim-mb li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-mb li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-trim-mb:active {
+  background: black;
+}
+
+.ca-trim-mitsubishi {
+  background: #ff0022;
+  border: 1px solid #ff0022;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-mitsubishi li {
+  display: block;
+}
+
+.ca-trim-mitsubishi li ul {
+  display: none;
+}
+
+.ca-trim-mitsubishi li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-mitsubishi li:hover {
+  background: #ff0022;
+}
+
+.ca-trim-mitsubishi li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-mitsubishi li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #b30018;
+}
+
+.ca-trim-mitsubishi:active {
+  background: #b30018;
+}
+
+.ca-trim-nissan {
+  background: #c3002f;
+  border: 1px solid #c3002f;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-nissan li {
+  display: block;
+}
+
+.ca-trim-nissan li ul {
+  display: none;
+}
+
+.ca-trim-nissan li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-nissan li:hover {
+  background: #c3002f;
+}
+
+.ca-trim-nissan li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-nissan li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #77001d;
+}
+
+.ca-trim-nissan:active {
+  background: #77001d;
+}
+
+.ca-trim-subaru {
+  background: #20609F;
+  border: 1px solid #20609F;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-subaru li {
+  display: block;
+}
+
+.ca-trim-subaru li ul {
+  display: none;
+}
+
+.ca-trim-subaru li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-subaru li:hover {
+  background: #20609F;
+}
+
+.ca-trim-subaru li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-subaru li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #133a5f;
+}
+
+.ca-trim-subaru:active {
+  background: #133a5f;
+}
+
+.ca-trim-toyota {
+  background: #d71921;
+  border: 1px solid #d71921;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-toyota li {
+  display: block;
+}
+
+.ca-trim-toyota li ul {
+  display: none;
+}
+
+.ca-trim-toyota li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-toyota li:hover {
+  background: #d71921;
+}
+
+.ca-trim-toyota li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-toyota li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #921116;
+}
+
+.ca-trim-toyota:active {
+  background: #921116;
+}
+
+.ca-trim-volvo {
+  background: #003057;
+  border: 1px solid #003057;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-volvo li {
+  display: block;
+}
+
+.ca-trim-volvo li ul {
+  display: none;
+}
+
+.ca-trim-volvo li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-volvo li:hover {
+  background: #003057;
+}
+
+.ca-trim-volvo li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-volvo li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #00060b;
+}
+
+.ca-trim-volvo:active {
+  background: #00060b;
+}
+
+.ca-trim-vw {
+  background: #00B1EB;
+  border: 1px solid #00B1EB;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-vw li {
+  display: block;
+}
+
+.ca-trim-vw li ul {
+  display: none;
+}
+
+.ca-trim-vw li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-vw li:hover {
+  background: #00B1EB;
+}
+
+.ca-trim-vw li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-vw li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #00779f;
+}
+
+.ca-trim-vw:active {
+  background: #00779f;
+}
+
+.ca-trim-grey {
+  background: #e4e4e4;
+  border: 1px solid #e4e4e4;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-grey li {
+  display: block;
+}
+
+.ca-trim-grey li ul {
+  display: none;
+}
+
+.ca-trim-grey li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-grey li:hover {
+  background: #e4e4e4;
+}
+
+.ca-trim-grey li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-grey li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #bebebe;
+}
+
+.ca-trim-grey:active {
+  background: #bebebe;
+}
+
+.ca-trim-demo {
+  background: #000021;
+  border: 1px solid #000021;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-demo li {
+  display: block;
+}
+
+.ca-trim-demo li ul {
+  display: none;
+}
+
+.ca-trim-demo li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-demo li:hover {
+  background: #000021;
+}
+
+.ca-trim-demo li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-demo li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-trim-demo:active {
+  background: black;
+}
+
+.ca-trim-white {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-white li {
+  display: block;
+}
+
+.ca-trim-white li ul {
+  display: none;
+}
+
+.ca-trim-white li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-white li:hover {
+  background: #FFFFFF;
+}
+
+.ca-trim-white li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-white li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #d9d9d9;
+}
+
+.ca-trim-white:active {
+  background: #d9d9d9;
+}
+
+.ca-trim-black {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-black li {
+  display: block;
+}
+
+.ca-trim-black li ul {
+  display: none;
+}
+
+.ca-trim-black li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-black li:hover {
+  background: #000000;
+}
+
+.ca-trim-black li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-black li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: black;
+}
+
+.ca-trim-black:active {
+  background: black;
+}
+
+.ca-trim-secondary {
+  background: #00bae3;
+  border: 1px solid #00bae3;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-secondary li {
+  display: block;
+}
+
+.ca-trim-secondary li ul {
+  display: none;
+}
+
+.ca-trim-secondary li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-secondary li:hover {
+  background: #00bae3;
+}
+
+.ca-trim-secondary li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-secondary li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #007b97;
+}
+
+.ca-trim-secondary:active {
+  background: #007b97;
+}
+
+.ca-trim-purple {
+  background: #603a93;
+  border: 1px solid #603a93;
+  color: #FFFFFF;
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.ca-trim-purple li {
+  display: block;
+}
+
+.ca-trim-purple li ul {
+  display: none;
+}
+
+.ca-trim-purple li a {
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.ca-trim-purple li:hover {
+  background: #603a93;
+}
+
+.ca-trim-purple li:hover ul {
+  padding: 0;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.ca-trim-purple li:hover ul li a:hover {
+  transition: all 0.3s ease;
+  background: #3c245c;
+}
+
+.ca-trim-purple:active {
+  background: #3c245c;
+}
+
+.ca-container .ca-font-disclaimer {
+  font-size: 8px;
+}
+
+.ca-container h1 {
+  padding-left: 0;
+  font-size: 32px;
+}
+
+.ca-container h2 {
+  padding-left: 0;
+  font-size: 24px;
+}
+
+.ca-container h3 {
+  padding-left: 0;
+  font-size: 18px;
+}
+
+.ca-container h4 {
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.ca-container h5 {
+  padding-left: 0;
+  font-size: 14px;
+}
+
+.ca-container p {
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 110%;
+}
+
+.ca-container br {
+  display: none !important;
+}
+
+.ca-container ul {
+  font-size: 14px;
+  padding: 5px 0 10px 20px;
+  list-style: disc;
+}
+
+.ca-container ul.ca-list-none {
+  list-style: none;
+}
+
+.ca-container ul.ca-list-inline li {
+  display: inline;
+  padding: 10px 10px;
+  margin: 10px 0;
+}
+
+.ca-container ul.ca-list-inline li:first-of-type {
+  padding-left: 0;
+}
+
+.ca-container ul.ca-list-inline li:last-of-type {
+  padding-right: 0;
+}
+
+.ca-container .ca-text-bold {
+  font-weight: bold;
+}
+
+.ca-container .ca-text-underline {
+  text-decoration: underline;
+}
+
+.ca-container form.ca-form {
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+}
+
+.ca-container form.ca-form label {
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.ca-container form.ca-form .ca-radio-inline input[type=radio] {
+  display: inline;
+}
+
+.ca-container form.ca-form .ca-radio-inline label {
+  padding: 0 10px;
+}
+
+.ca-container form.ca-form input[type=text] {
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid #c5c5c5;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+}
+
+.ca-container form.ca-form .ca-form-inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ca-container form.ca-form .ca-form-inline label {
+  padding: 0 5px 0 0;
+}
+
+.ca-container form.ca-form .ca-form-inline input[type=text] {
+  width: auto;
+}
+
+.ca-container form.ca-form textarea {
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid #c5c5c5;
+  padding: 10px;
+  border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px 6px 6px 6px;
+}
+
+.ca-container form.ca-form {
+  max-width: 100%;
+}
+
+table.ca-table {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #c5c5c5;
+  border-collapse: collapse;
+}
+
+table.ca-table th {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+table.ca-table td {
+  font-size: 14px;
+  border: 1px solid #c5c5c5;
+}
+
+table.ca-table td, table.ca-table th {
+  padding: .625em !important;
+  text-align: center;
+}
+
+table.ca-table-striped {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border: none !important;
+}
+
+table.ca-table-striped th {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+table.ca-table-striped td {
+  font-size: 14px;
+  border: none;
+}
+
+table.ca-table-striped td, table.ca-table-striped th {
+  padding: .625em !important;
+  text-align: center;
+}
+
+table.ca-table-striped tr:nth-of-type(odd) {
+  background: #eeeeee !important;
+}
+
+table.ca-table-2 th {
+  width: 50%;
+}
+
+table.ca-table-3 th {
+  width: 33.3333%;
+}
+
+table.ca-table-4 th {
+  width: 25%;
+}
+
+.ca-container .ca-display-desktop {
+  display: block;
+}
+
+.ca-container .ca-display-mobile {
+  display: none;
+}
+
+.ca-container .ca-display-none {
+  display: none;
+}
+
+.ca-container .unhappyMessage {
+  padding: 5px 10px;
+  background: red;
+  color: #FFFFFF;
+}
+
+.ca-container .ca-collapse {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Panels ---------------------------------------------------------------------- */
+.ca-container .ca-panel {
+  width: 100%;
+  margin: 20px 0;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.ca-container .ca-panel p {
+  padding: 20px;
+}
+
+.ca-container .ca-panel .ca-popout {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  margin-top: -30px;
+  margin-left: 4%;
+  margin-right: 4%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.ca-container .ca-panel .ca-popout h2 {
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+.ca-container .ca-panel::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ca-container .ca-card {
+  padding-top: 5px;
+  width: 95%;
+  margin: 20px auto;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.ca-container .ca-card p {
+  padding: 20px;
+}
+
+.ca-container .ca-card .ca-card-title {
+  display: block;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  margin-top: -30px;
+  margin-left: 4%;
+  margin-right: 4%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.ca-container .ca-card .ca-card-title h2 {
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+.ca-container .ca-card::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ca-container .slicknav_btn {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  float: right;
+  padding: 0.438em 0.625em 0.438em 0.625em;
+  line-height: 1.125em;
+  cursor: pointer;
+}
+
+.ca-container .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+  margin-top: 0.188em;
+}
+
+.ca-container .slicknav_menu {
+  *zoom: 1;
+}
+
+.ca-container .slicknav_menu .slicknav_menutxt {
+  display: block;
+  line-height: 1.188em;
+  float: left;
+}
+
+.ca-container .slicknav_menu .slicknav_icon {
+  float: left;
+  width: 1.125em;
+  height: 0.875em;
+  margin: 0.188em 0 0 0.438em;
+}
+
+.ca-container .slicknav_menu .slicknav_icon:before {
+  background: transparent;
+  width: 1.125em;
+  height: 0.875em;
+  display: block;
+  content: "";
+  position: absolute;
+}
+
+.ca-container .slicknav_menu .slicknav_no-text {
+  margin: 0;
+}
+
+.ca-container .slicknav_menu .slicknav_icon-bar {
+  display: block;
+  width: 1.125em;
+  height: 0.125em;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ca-container .slicknav_menu:before {
+  content: " ";
+  display: table;
+}
+
+.ca-container .slicknav_menu:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.ca-container .slicknav_nav {
+  clear: both;
+}
+
+.ca-container .slicknav_nav ul {
+  display: block;
+}
+
+.ca-container .slicknav_nav li {
+  display: block;
+}
+
+.ca-container .slicknav_nav .slicknav_arrow {
+  font-size: 0.8em;
+  margin: 0 0 0 0.4em;
+}
+
+.ca-container .slicknav_nav .slicknav_item {
+  cursor: pointer;
+}
+
+.ca-container .slicknav_nav .slicknav_item a {
+  display: inline;
+}
+
+.ca-container .slicknav_nav .slicknav_row {
+  display: block;
+}
+
+.ca-container .slicknav_nav a {
+  display: block;
+}
+
+.ca-container .slicknav_nav .slicknav_parent-link a {
+  display: inline;
+}
+
+.ca-container .slicknav_brand {
+  float: left;
+}
+
+.ca-container .slicknav_menu {
+  font-size: 16px;
+  box-sizing: border-box;
+  /*background: $color_bg;*/
+  padding: 5px;
+}
+
+.ca-container .slicknav_menu * {
+  box-sizing: border-box;
+}
+
+.ca-container .slicknav_menu .slicknav_menutxt {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 1px 3px #000;
+}
+
+.ca-container .slicknav_menu .slicknav_icon-bar {
+  background-color: #fff;
+}
+
+.ca-container .slicknav_btn {
+  margin: 5px 5px 6px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #222;
+}
+
+.ca-container .slicknav_nav {
+  color: #fff;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 0.875em;
+  list-style: none;
+  overflow: hidden;
+}
+
+.ca-container .slicknav_nav ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+.ca-container .slicknav_nav .slicknav_row {
+  padding: 5px 10px;
+  margin: 2px 5px;
+}
+
+.ca-container .slicknav_nav .slicknav_row:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  color: #fff;
+}
+
+.ca-container .slicknav_nav a {
+  padding: 5px 10px;
+  margin: 2px 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.ca-container .slicknav_nav a:hover {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #ccc;
+  color: #222;
+}
+
+.ca-container .slicknav_nav .slicknav_txtnode {
+  margin-left: 15px;
+}
+
+.ca-container .slicknav_nav .slicknav_item a {
+  padding: 0;
+  margin: 0;
+}
+
+.ca-container .slicknav_nav .slicknav_parent-link a {
+  padding: 0;
+  margin: 0;
+}
+
+.ca-container .slicknav_brand {
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 7px 12px;
+  height: 44px;
+}
+
+.ca-container .slicknav_menu {
+  display: none;
+}
+
+.ca-container .slicknav_menu ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ca-container .slicknav_menutxt {
+  text-shadow: none !important;
+}
+
+.ca-container .slicknav_icon {
+  margin-right: 5px !important;
+}
+
+.ca-container .slicknav_btn {
+  text-shadow: none !important;
+  padding-top: 5px !important;
+  padding-left: 5px !important;
+  padding-bottom: 5px !important;
+  background: none !important;
+}
+
+.ca-container .ca-image {
+  display: block;
+  width: 100%;
+}
+
+.ca-container .ca-iframe {
+  width: 100%;
+}
+
+.ca-container .ca-row .ca-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.ca-container .ca-row .ca-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#standard-preview {
+  width: 900px;
+}
+
+#mobile-preview {
+  width: 450px;
+}
+
+.demo {
+  background: #a9fffe;
+  padding: 10px;
+}
+
+.ca-container * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ca-container {
+  padding: 10px 0;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+}
+
+.ca-container #ca-sidebar [class*="ca-col-"]::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ca-container #ca-sidebar {
+  width: 17%;
+  z-index: 999999;
+  position: fixed;
+}
+
+.ca-container #ca-body .ca-row:first-child {
+  padding-top: 0;
+}
+
+.ca-container .ca-background-demo {
+  background: #000021;
+}
+
+.ca-container .ca-display-desktop {
+  display: block;
+}
+
+.ca-container .ca-display-mobile {
+  display: none;
+}
+
+.ca-container .ca-display-none {
+  display: none;
+}
+
+.ca-container .unhappyMessage {
+  padding: 5px 10px;
+  background: red;
+  color: #FFFFFF;
+}
+
+.ca-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid-pad {
+  padding: 20px 0 20px 20px;
+}
+
+@media only screen and (max-width: 650px) {
+  .ca-container .ca-row {
+    padding: 0;
+  }
+  .ca-container .ca-row [class*="ca-col-"] {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .ca-container .ca-row [class*="ca-col-"] .ca-row [class*="ca-col-"] {
+    padding-left: 0 !important;
+  }
+  .ca-container .ca-row [class*="ca-col-"] .ca-row [class*="ca-col-"]:last-of-type {
+    padding-right: 0 !important;
+  }
+  .ca-container .ca-row [class*="ca-col-"] .ca-row [class*="ca-col-"] {
+    padding-right: 0 !important;
+  }
+  .ca-container .ca-row [class*="ca-offset-"] {
+    margin-left: 0 !important;
+  }
+  .ca-container .ca-row {
+    padding: 0;
+  }
+  .ca-container .ca-row {
+    padding: 0;
+  }
+  .ca-container .ca-display-desktop {
+    display: none !important;
+  }
+  .ca-container .ca-display-mobile {
+    display: block;
+  }
+  .ca-container .catable {
+    width: 100%;
+    border: 0;
+  }
+  .ca-container .catable thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  .ca-container .catable tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  .ca-container .catable td.ca-table-comparehead {
+    font-weight: bold;
+    display: block;
+    font-size: .8em;
+    text-align: center;
+  }
+  .ca-container .catable td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  .ca-container .catable td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .ca-container .catable td:last-child {
+    border-bottom: 0;
+  }
+  #ca-sidebar {
+    display: none;
+  }
+  .slicknav_menu {
+    display: block !important;
+  }
+  .ca-trim-acura i {
+    display: none;
+  }
+}
+
+@media screen and (max-device-width: 375px) and (max-device-height: 667px) {
+  .ca-container .ca-table {
+    width: 100%;
+    border: 0;
+  }
+  .ca-container .ca-table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  .ca-container .ca-table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  .ca-container .ca-table td.ca-table-comparehead {
+    font-weight: bold;
+    display: block;
+    font-size: .8em;
+    text-align: center;
+  }
+  .ca-container .ca-table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  .ca-container .ca-table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .ca-container .ca-table td:last-child {
+    border-bottom: 0;
+  }
+}

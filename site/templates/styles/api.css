@@ -1,0 +1,117 @@
+/** 
+ * main.css
+ * 
+ * 1. General HTML tags
+ * 2. Masthead area
+ * 3. Main content and sidebar
+ * 4. Footer
+ * 5. Media queries for responsive layout
+ * 6. Accessibility helpers
+ * 
+ */
+
+/*********************************************************************
+ * 1. Specials
+ *
+ */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.MarkupPagerNav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+ul.MarkupPagerNav li {
+    padding: 5px;
+    display: inline-block;
+}
+
+ul.MarkupPagerNav li a{
+    padding: 5px;
+    color: #1C4E80;
+    text-decoration: none;
+}
+
+ul.MarkupPagerNav li a:hover{
+    color: #ffffff !important;
+    background: #1C4E80;
+}
+
+li.MarkupPagerNavOn a {
+    color: #ffffff !important;
+    background: #1C4E80;
+}
+
+/*********************************************************************
+ * 5. Media queries for responsive layout
+ *
+ */
+
+@media only screen and (max-width: 767px) {
+	/* mobile layout */ 
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+	/* extra-wide desktop layout */ 
+}
+/*********************************************************************
+ * 6. Accessibility helpers
+ *
+ */
+
+/* Hide visually, but remain approachable for screenreader */
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	white-space: nowrap;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	border: 0;
+}
+
+/* Show bypass link on hover */
+
+.element-focusable:focus {
+	clip: auto;
+	overflow: visible;
+	height: auto;
+}
+
+/* Sample styling for bypass link */
+
+.bypass-to-main:focus {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+}

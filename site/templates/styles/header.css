@@ -1,0 +1,288 @@
+/********** Transform CSS3 **********/
+/********** Transform CSS3 **********/
+/********** Animation **********/
+/********** Animation **********/
+/********** Filtres CSS3 style Photoshop **********/
+/********** Filtres CSS3 style Photoshop **********/
+/********** Flex layout **********/
+/********** Flex layout **********/
+/********** Others **********/
+/********** Others **********/
+/********** GENERAL **********/
+/********** GENERAL **********/
+.page-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: -2px 0px 10px -3px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+
+.page-header .page-logo {
+  flex: 1 0 20%;
+}
+
+.page-header .page-logo img {
+  width: 150px;
+}
+
+.page-header .page-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+.page-header #pageNav {
+  flex: 0 0 80%;
+  max-width: 80%;
+  text-align: right;
+}
+
+.page-header #pageNav .nav-primary > li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.page-header #pageNav .nav-primary > li.has-sub-level {
+  position: relative;
+}
+
+.page-header #pageNav .nav-primary > li.has-sub-level:after {
+  position: absolute;
+  top: 3.3rem;
+  right: 0;
+  content: "\f078";
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", sans-serif;
+  font-weight: 900;
+  font-size: 1.4rem;
+  color: #3c93dc;
+}
+
+.page-header #pageNav .nav-primary > li > a {
+  display: block;
+  padding: 3rem 2rem;
+  position: relative;
+}
+
+.page-header #pageNav .nav-primary > li > a:after {
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #3c93dc;
+}
+
+.page-header #pageNav .nav-primary > li ul {
+  position: absolute;
+  background-color: #ffffff;
+  display: none;
+  width: 300px;
+  text-align: left;
+  box-shadow: 3px 7px 4px -6px rgba(0, 0, 0, 0.2);
+  border: 1px solid #eeeeee;
+}
+
+.page-header #pageNav .nav-primary > li ul > li {
+  border-bottom: 1px solid #eeeeee;
+  background-color: #ffffff;
+}
+
+.page-header #pageNav .nav-primary > li ul > li:last-child {
+  border: 0;
+}
+
+.page-header #pageNav .nav-primary > li ul > li > a {
+  display: block;
+  padding: 2rem;
+}
+
+.page-header #pageNav .nav-primary > li ul > li > a:hover {
+  background-color: #bedbf3;
+}
+
+.page-header #pageNav .nav-primary > li.has-sub-level.show:after {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.page-header #pageNav .nav-primary > li.show ul, .page-header #pageNav .nav-primary > li.show:hover ul {
+  display: block;
+}
+
+.page-header #pageNav .nav-primary > li:hover.has-sub-level:after {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.page-header #pageNav .nav-primary > li:hover > a:after {
+  width: 100%;
+}
+
+.page-header #pageNav .nav-primary > li:hover ul {
+  display: block;
+}
+
+.page-header #triggerNavContainer {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  right: 5rem;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.page-header #triggerNavContainer .title {
+  color: #3c93dc;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.page-header #triggerNavContainer .trigger-menu {
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  margin-left: 7px;
+}
+
+.page-header #triggerNavContainer .trigger-menu span {
+  width: 30px;
+  height: 2px;
+  background-color: #3c93dc;
+  display: block;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 1024px) {
+  .page-header #triggerNavContainer {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-header #triggerNavContainer {
+    right: 3rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .page-header .page-logo {
+    padding: 2rem 0;
+  }
+  .page-header #pageNav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    background-color: #3c93dc;
+    width: 300px;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .page-header #pageNav .nav-primary > li {
+    display: block;
+    margin: 0;
+  }
+  .page-header #pageNav .nav-primary > li.has-sub-level:after {
+    color: #ffffff;
+    right: 3rem;
+  }
+  .page-header #pageNav .nav-primary > li > a {
+    color: #ffffff;
+    text-align: left;
+    padding-right: 5rem;
+  }
+  .page-header #pageNav .nav-primary > li > a:focus {
+    outline: 1px solid #ffffff;
+  }
+  .page-header #pageNav .nav-primary > li ul {
+    position: relative;
+    box-shadow: none;
+    border: 0;
+  }
+  .page-header #pageNav .nav-primary > li:hover.has-sub-level:not(.show):after {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .page-header #pageNav .nav-primary > li:hover ul {
+    display: none;
+  }
+  .page-header #triggerNavContainer {
+    display: inline-block;
+  }
+}
+
+#pageNavOverlay {
+  visibility: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=$opacity-ie);
+  filter: alpha(opacity=0);
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+body.menu-opened {
+  overflow: hidden;
+}
+
+body.menu-opened #pageNav {
+  -webkit-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  -o-transform: translateX(0%);
+  transform: translateX(0%);
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+body.menu-opened #pageNavOverlay {
+  visibility: visible;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=$opacity-ie);
+  filter: alpha(opacity=100);
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
